@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nunito&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: "Bangers", cursive;
+  font-size: 48px;
+}
+
+body {
+  padding: 48px;
+}
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, auto);
+  grid-row-gap: 2em;
+  grid-column-gap: 2em;
+}
+
+.pokemon-listing {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-shadow: 3px 3px 3px hsl(0, 20%, 80%);
+}
+
+.pokemon-listing p {
+  text-align: center;
+  font-weight: 700;
+}
